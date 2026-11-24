@@ -4,20 +4,56 @@ Homiq is a beginner-friendly machine learning project that predicts the price of
 
 ---
 
+## 🎯 The Problem and What We Solve
+
+### The problem
+
+Buying a house is one of the biggest financial decisions most people ever make, and the hardest part is often the very first question: **"What should a house like this actually cost?"**
+
+Every buyer has their own wish list: a certain size, a number of bedrooms, a parking space, air conditioning, a guest room, a preferred neighborhood. Every buyer also has a budget. Without a reference point, it is difficult to know whether those two things fit together. People end up browsing listings for weeks, guessing which features push the price up, and finding out only late in the process that their wish list and their budget do not match.
+
+### Our solution
+
+Homiq is an AI-based house price estimation system built on a **Linear Regression** model. Instead of guessing, the user simply describes the house they have in mind, and the system estimates its price from what it has learned from real data.
+
+The idea is simple:
+
+1. **Describe** the house you want: area, rooms, parking, and extra features.
+2. **Get** an estimated price from the trained model.
+3. **Compare** that estimate with your budget *before* you start buying.
+
+### Who is it for?
+
+- **Home buyers** who want to check their requirements against their budget before they commit.
+- **People planning ahead** who want to see how each feature, such as an extra bedroom or air conditioning, changes the expected price.
+- **Students and beginners** who want a clear, end-to-end example of a regression project, from raw data to a saved model that makes predictions.
+
+### What you can do with it
+
+- Estimate the price of a house from its features in seconds.
+- Check whether a set of requirements fits your budget before you start the search.
+- Explore how different choices affect the price by changing one feature at a time.
+- Learn how a real machine learning workflow fits together: loading data, cleaning, training, evaluating, saving, and using a model.
+
+> 💡 **Note:** Homiq gives an *estimate* based on a small public dataset, so treat it as a helpful starting point for planning, not as a professional valuation or financial advice.
+
+---
+
 ## 📑 Table of Contents
 
-1. [What is Linear Regression?](#-what-is-linear-regression)
-2. [The Formula](#-the-formula)
-3. [More Than One Feature](#-more-than-one-feature)
-4. [Dataset](#-dataset)
-5. [Project Structure](#-project-structure)
-6. [Installation](#-installation)
-7. [How the Training Notebook Works](#-how-the-training-notebook-works)
-8. [Using the Model (Prediction Notebook)](#-using-the-model-prediction-notebook)
-9. [Results](#-results)
-10. [Limitations](#-limitations)
-11. [Ideas for Improvement](#-ideas-for-improvement)
-12. [License](#-license)
+1. [The Problem and What We Solve](#-the-problem-and-what-we-solve)
+2. [What is Linear Regression?](#-what-is-linear-regression)
+3. [The Formula](#-the-formula)
+4. [More Than One Feature](#-more-than-one-feature)
+5. [Dataset](#-dataset)
+6. [Project Structure](#-project-structure)
+7. [Installation](#-installation)
+8. [How the Training Notebook Works](#-how-the-training-notebook-works)
+9. [Using the Model (Prediction Notebook)](#-using-the-model-prediction-notebook)
+10. [Results](#-results)
+11. [Limitations](#-limitations)
+12. [Ideas for Improvement](#-ideas-for-improvement)
+13. [License](#-license)
 
 ---
 
