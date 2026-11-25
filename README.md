@@ -53,7 +53,6 @@ The idea is simple:
 10. [Results](#-results)
 11. [Limitations](#-limitations)
 12. [Ideas for Improvement](#-ideas-for-improvement)
-13. [License](#-license)
 
 ---
 
@@ -123,22 +122,6 @@ price = w1·area + w2·bedrooms + ... + w12·furnishingstatus + b
 | `furnishingstatus` | category | Furnishing level | unfurnished = 0, semi-furnished = 1, furnished = 2 |
 
 Quick facts: prices range from 1,750,000 to 13,300,000 (mean ≈ 4,767,000), there are no missing values, and the original currency is not specified in the data.
-
----
-
-## 📁 Project Structure
-
-```
-House-Price-Prediction/
-├── Data.csv                      # The dataset
-├── House-Price-Prediction.ipynb  # Train, evaluate, and save the model
-├── Test-File.ipynb               # Load the model and predict from user input
-├── House-Prediction-model        # Saved trained model (created with Joblib)
-├── requirements.txt              # Python dependencies
-├── .gitignore
-├── LICENSE
-└── README.md
-```
 
 ---
 
